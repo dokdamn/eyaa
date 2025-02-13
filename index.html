@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts-container"></div>
+
+    <!-- Intro Section -->
+    <div class="container" id="intro">
+        <h1 class="romantic-text">Hii Eyanny ❤️</h1>
+        <button class="intro-button" onclick="showMessage()">Hello</button>
+    </div>
+
+    <!-- Message Section -->
+    <div class="container hidden" id="message">
+        <p class="message-text">I know we're not talking anymore, but I just wanna let you know I've always been thinking about you. You always cross my mind, and since a very special day is near, I just wanna ask you something.</p>
+        <button class="intro-button" onclick="startValentine()">What is it?</button>
+    </div>
+
+    <!-- Valentine Proposal Section -->
+    <div class="container hidden" id="valentine">
+        <h1 class="romantic-text">Will you be my Valentine? 💖</h1>
+        <div class="buttons">
+            <button class="yes-button" onclick="handleYesClick()">Yes</button>
+            <button class="no-button" onclick="handleNoClick()">No</button>
+        </div>
+        <div class="gif_container">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" alt="Cute GIF">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
